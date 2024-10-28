@@ -55,6 +55,7 @@ int32_t main() {
             int x;
             cin >> x;
             minn = min(minn, x);
+            //test
         }
         cout << (max(n * 2 - 3, 1LL) * minn <= k ? "YES" : "NO") << '\n';
     }
